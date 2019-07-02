@@ -1,0 +1,10 @@
+{
+    "apiPort": 1237,
+    "storageProvider": "in-memory",
+    "storageConnectionString": "",
+    "corsWhitelist": [],
+    "authenticator": {
+        "APIType": 1,
+        "URL": "http://localhost:1038/api/auth"
+    }
+}

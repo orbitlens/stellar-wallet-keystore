@@ -1,0 +1,44 @@
+{
+  "name": "stellar-wallet-keystore",
+  "version": "0.1.0",
+  "description": "JS implementation of the keystore service compatible with the official Stellar WalletSDK Keystore.",
+  "author": "StellarExpert team",
+  "license": "MIT",
+  "homepage": "https://github.com/orbitlens/stellar-wallet-keystore",
+  "bugs": {
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore/issues",
+    "email": "orbit.lens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore.git"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=test TS_NODE_FILES=true mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "keywords": [
+    "stellar",
+    "SSO",
+    "signer"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.8",
+    "@types/node-fetch": "^2.3.6",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
